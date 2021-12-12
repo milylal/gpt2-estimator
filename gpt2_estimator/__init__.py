@@ -2,3 +2,4 @@ from .ckpt_restore_hook import RestoreCheckpointHook, get_assignment_map_from_ch
 from .gpt2_estimator_fn import *
 from .gpt2.src.model import default_hparams
 from . import gpt2
+from gpt2_estimator import gpt2
