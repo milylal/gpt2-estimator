@@ -2,4 +2,5 @@ from .ckpt_restore_hook import RestoreCheckpointHook, get_assignment_map_from_ch
 from .model import default_hparams
 from .load_dataset import load_dataset, Sampler
 from .accumulate import AccumulatingOptimizer
-from gpt2_estimator import gpt2
+from gpt2_estimator import *
+from .gpt2_estimator_fn import * 
